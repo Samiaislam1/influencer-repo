@@ -8,19 +8,27 @@ body{font-family: 'Anton', sans-serif;
 
 .padding{
     text-align: center;
-    font-size: 30px;}
+    font-size: 30px;
+        padding-top: 8%;
+        padding-bottom: 5%
+}
+
 
 .flex{
-    display: flex;}
+    display: flex;
+    padding-top: 6%;
+padding-bottom: 5%;
+
+}
 
 .flex h1{
     font-size: 245%;
     color: black;
 }
 .flex img{
-    width: 450px;
+    width: 440px;
     padding-left: 105%;
-    z-index: 3;
+    
     
 
 }
@@ -34,12 +42,111 @@ img{
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3%;
+    border: aliceblue;
+    padding-bottom: 20px red;
+    justify-items:  center;
+
+  
+    
+    
 }
+
+.trans{
+    position: relative;
+
+}
+/* .tran{
+    position:absolute;
+    top:30px;
+    left: 0px;
+    opacity: 0px;
+    transition: opacity 0.51s ease
+}
+.tran:hover{
+    opacity: 1; */
+
+.svg1{
+    gap: 50%;
+    padding-left: 45px;}
+
+
 .product{
-    border-bottom: red 200px;
-    display: grid;
-    grid-template-columns: repeat(3 3fr);
+    box-shadow: 10px 10px 8px 10px #888888;
+    padding: 9% 8%;
+
 }
+
+.a2{
+    text-decoration: none;
+    color: black;
+    text-align: right 50%;
+    font-size: 100%;
+    color: rgb(230, 107, 132);
+
+    padding-top: 56%;
+    font-size: 150%;
+}
+
+    
+    .width{
+        width: 25%;
+        position: absolute;
+        opacity: 0;
+        top: 0;
+    }
+    .width2{
+        width: 25%;
+        position:absolute;
+        opacity: 0;
+        top: 0;
+    }
+    .width3{
+        width: 28%;
+        position: absolute;
+        opacity: 0;
+        
+    }
+    .width4{
+        width: 25%;
+        position: absolute;
+        opacity: 0%;
+        top: 0;
+    }
+    .transition{
+        position: relative;
+       
+    }
+    .transition:hover{
+        opacity: 1;
+    }
+    .trans{
+        width: 6%;
+        padding-left: 20%;
+    }
+    .strong{
+        padding-top: 5%;
+    }
+    p{
+        width: 40%;
+    }
+    .mainline{
+        width: 40%;
+    }
+    .color{
+        text-decoration: none;
+        color: black;
+        background-color: rgb(209, 169, 177);
+        padding: 2%;
+        border-radius: 2%;
+    }
+    
+
+ 
+    
+    
+
+
 
 
