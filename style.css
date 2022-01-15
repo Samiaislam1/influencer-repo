@@ -1,0 +1,45 @@
+body{font-family: 'Anton', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;}
+
+.padding{
+    text-align: center;
+    font-size: 30px;}
+
+.flex{
+    display: flex;}
+
+.flex h1{
+    font-size: 245%;
+    color: black;
+}
+.flex img{
+    width: 450px;
+    padding-left: 105%;
+    z-index: 3;
+    
+
+}
+img{
+    z-index: 3;
+}
+.svg1{
+    justify-content: center;
+    padding-right: 27px;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+.product{
+    border-bottom: red 200px;
+    display: grid;
+    grid-template-columns: repeat(3 3fr);
+}
+
+
